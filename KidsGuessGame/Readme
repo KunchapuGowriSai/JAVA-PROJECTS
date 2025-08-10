@@ -1,0 +1,97 @@
+# 🎯 Kids Number Guessing Game
+
+A fun and interactive **Java-based terminal game** designed for kids to guess a secret number with helpful hints, categories, and emojis for better engagement.
+The game automatically gives suggestions to make it easy and enjoyable for children.
+
+---
+
+## 📌 Features
+
+* ✅ **Fun for Kids** — Simple gameplay with hints and friendly messages.
+* ✅ **Auto Hints** — Program suggests numbers to guide the player.
+* ✅ **Emoji Feedback** — 🎯, ✅, ❌, and more to make the game visually fun.
+* ✅ **Category Hints** — Tells if the number is small, medium, or large.
+* ✅ **Replay Option** — Play as many times as you want without restarting the program.
+
+---
+
+## 🎮 How to Play
+
+1. Run the program in your **Java-supported terminal**.
+2. The computer picks a **random number** within a given range.
+3. You guess the number based on:
+
+   * **Too High / Too Low** hints
+   * **Category clues** (Small, Medium, Large)
+   * **Auto suggestions** for kids to guess easily
+4. Keep guessing until you win! 🎉
+5. You can choose to play again or exit.
+
+---
+
+## 📂 Project Structure
+
+```
+KidsNumberGuessingGame/
+│── src/
+│   └── KidsNumberGuessingGame.java
+│── README.md
+```
+
+---
+
+## ⚙️ Requirements
+
+* **Java 8+** installed
+* A **terminal that supports Unicode emojis** (UTF-8 encoding enabled)
+
+---
+
+## ▶️ How to Run
+
+1. **Clone or download** the project folder.
+2. Open terminal inside the folder and compile:
+
+   ```bash
+   javac KidsNumberGuessingGame.java
+   ```
+3. Run the game:
+
+   ```bash
+   java KidsNumberGuessingGame
+   ```
+
+---
+
+## 💡 Tips for Emoji Display
+
+If emojis show as `?` in your terminal:
+
+* Make sure your terminal encoding is set to **UTF-8**.
+* Use a font that supports emojis, such as **Nerd Fonts** or **Segoe UI Emoji**.
+* For **VS Code**, change settings:
+
+  * `"terminal.integrated.fontFamily": "Segoe UI Emoji, Cascadia Code"`
+  * `"terminal.integrated.allowGlyphFallback": true`
+
+---
+
+## 📸 Example Output
+
+```
+🎯 Welcome to the Kids Number Guessing Game!
+🤔 I'm thinking of a number between 1 and 50.
+💡 Hint: It's in the 'Medium' range.
+💡 Suggested Guess: 25
+Enter your guess: 25
+✅ Correct! You guessed the number!
+🎉 Congratulations! You win! 🏆
+```
+
+---
+
+## ✨ Future Improvements
+
+* Add difficulty levels (Easy, Medium, Hard)
+* Implement a scoring system
+* Add multiplayer mode
